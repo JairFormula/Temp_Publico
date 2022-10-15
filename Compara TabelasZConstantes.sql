@@ -8,7 +8,7 @@ CREATE TABLE dbo.ZComparaConstantes
 	Campo_Jair       VARCHAR (50),
 	Codigo_Jair      VARCHAR (20),
 	Descricao_Jair   VARCHAR (100),
-	ComparaDados     VARCHAR (21) NOT NULL,
+	ComparaDados     VARCHAR (21),
 	Observacoes_Jair VARCHAR (255)
 	)
 GO
